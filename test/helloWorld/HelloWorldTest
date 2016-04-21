@@ -15,12 +15,12 @@ public class HelloWorldTest {
 		
 	}
 	@Test
-	public void test2HellowWorld(){
+	public void test2HelloWorld(){
 		HelloWorld hello = new HelloWorld();
 		assertEquals("Test 2", "Hello World", hello.sayHello());
 	}
     @Test
-	public void test3HellowWorld(){
+	public void test3HelloWorld(){
 		HelloWorld hello = new HelloWorld();
 		assertEquals("Test 3", "Hello World   ", hello.sayHello());
 	}
