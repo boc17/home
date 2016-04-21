@@ -8,8 +8,17 @@ import uk.co.placona.helloWorld.HelloWorld;
 
 public class HelloWorldTest {
 	@Test
-	public void testHellowWorld(){
+	public void testHellowWorld1(){
 		HelloWorld hello = new HelloWorld();
-		assertEquals("A test for Hello World String", "Hello World!!", hello.sayHello());
+		assertEquals("A test for Hello World String1", "Hello World!!", hello.sayHello());
+	}
+	public void testHellowWorld2(){
+		HelloWorld hello = new HelloWorld();
+		assertEquals("A test for Hello World String2", "Hello World!!", hello.sayHello());
+		assertEquals("A test for Hello World String2", "Hello World!!1", hello.sayHello());
+	}
+	public void testHellowWorld3(){
+		HelloWorld hello = new HelloWorld();
+		assertEquals("A test for Hello World String3", "Hello", hello.sayHello());
 	}
 }
